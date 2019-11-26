@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1a072ce-8b38-486a-8d3b-8a50eaa85854" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+=======
+>>>>>>> 40a93c6b73fb9f6503f450efbabcc4eed7b662a7
       <change afterPath="$PROJECT_DIR$/src/main/resources/css/bootstrap.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/css/styles.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/favicon.ico" afterDir="false" />
@@ -23,6 +26,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/resources/user/login.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/user/login_failed.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/user/profile.html" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -41,6 +45,8 @@
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+=======
+>>>>>>> 40a93c6b73fb9f6503f450efbabcc4eed7b662a7
       <change beforePath="$PROJECT_DIR$/src/main/java/webserver/RequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webserver/RequestHandler.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -162,8 +168,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574743585451</updated>
+<<<<<<< HEAD
       <workItem from="1574743589975" duration="9894000" />
       <workItem from="1574757366692" duration="22000" />
+=======
+      <workItem from="1574743589975" duration="9442000" />
+>>>>>>> 40a93c6b73fb9f6503f450efbabcc4eed7b662a7
     </task>
     <servers />
   </component>
@@ -175,9 +185,13 @@
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< HEAD
             <State>
               <option name="COLUMN_ORDER" />
             </State>
+=======
+            <State />
+>>>>>>> 40a93c6b73fb9f6503f450efbabcc4eed7b662a7
           </value>
         </entry>
       </map>
