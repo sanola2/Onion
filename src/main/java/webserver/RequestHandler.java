@@ -1,13 +1,13 @@
 package webserver;
 
+import com.google.common.io.Resources;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.net.Socket;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 public class RequestHandler extends Thread {
 	private static final Logger log = LoggerFactory.getLogger(RequestHandler.class);
@@ -22,12 +22,18 @@ public class RequestHandler extends Thread {
 
 		try (InputStream in = connection.getInputStream(); OutputStream out = connection.getOutputStream()) {
 			DataOutputStream dos = new DataOutputStream(out);
-			byte[] body = "Hello world!!!!!".getBytes();
-			response200Header(dos, body.length);
-			responseBody(dos, body);
+			byte[] page = Files.readAllBytes(Paths.get(Resources.getResource(fileNameParser(in)).getPath()));
+
+			response200Header(dos, page.length);
+			responseBody(dos, page);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+	}
+
+	private String fileNameParser(InputStream input) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(input));
+		return br.readLine().split(" ")[1].substring(1);
 	}
 
 	private void responseBody(DataOutputStream dos, byte[] body) {
